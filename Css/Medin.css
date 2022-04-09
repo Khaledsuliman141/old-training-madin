@@ -1,0 +1,130 @@
+/*my rulz*/
+body{font-family: 'Droid Sans', sans-serif;}
+
+.clear-fix{clear: both}
+
+
+/*Start header */
+header
+{
+    background-image: url(../Images/Main-page.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh
+}
+
+.navbar-default{border: none;background-color: #fff}
+
+.navbar-default ul,.navbar-default ul li,.navbar-default a{display: inline-block}
+
+.navbar-default a img{height: 60px}
+
+.navbar-default ul {float: right}
+
+.navbar-default ul li {float: left; margin: 15px 10px}
+
+.navbar-default ul li a:hover{color: rgb(238,29,37);text-decoration: none}
+
+
+/*End header */
+
+/* start brand images */
+.brand-images {margin-top: 100px; text-align: center; color: rgb(238,29,37)}
+/* End brand images */
+
+/*Start Reviews section */
+.reviews
+{
+    margin-top: 100px;
+    height: 180px;
+    background-color: #333;
+    text-align: center;
+    color:#fff
+}
+
+.reviews i{color:rgb(238,29,37);margin-top: 20px}
+
+.reviews .unique {color:rgb(82,82,82)}
+/*End reviews section */
+
+/*Start Book an  appointment section*/
+.book{margin-top: 100px ; text-align: center}
+
+.book h2{color: rgb(238,29,37); margin-bottom: 60px}
+
+.book button
+{
+    height: 40px;
+    width: 150px;
+    margin-top: 40px;
+    background-color: rgb(58,162,165);
+    color: #fff;
+    border: none
+}
+
+.book button:hover
+{background-color: rgb(103, 222, 225);color: #fffd61;box-shadow: 5px 5px 5px #a7a7a7}
+/*End Book an  appointment section*/
+
+/*Start subscribe div*/
+.subscribe {margin-top: 100px;height: 400px;text-align: center;background-color: rgb(58,162,165)}
+
+.subscribe form{height: 220px;background-color: #fff; margin-top: 100px;padding-top: 75px}
+
+.subscribe form input {height: 40px;width: 240px;margin:5px;padding: 5px}
+
+.subscribe .green{background-color: rgb(58,162,165);color: #fff; border: none}
+
+form .green:hover {background-color: rgb(103, 222, 225);color: #fffd61;box-shadow: 5px 5px 5px #a7a7a7}
+/*End subscribe div */
+
+
+/*Start footer */
+
+footer{margin-top: 100px;text-align: center; color: #333}
+
+footer p{color: #747474}
+
+footer .Registration button
+{
+    height: 40px;
+    width: 130px;
+    background-color: rgb(58,162,165);
+    color: #fff;
+    border: 2px solid rgb(58,162,165);
+    border-radius: 20px
+}
+
+footer .Registration button:hover {background-color: rgb(103, 222, 225);color: #fffd61;box-shadow: 5px 5px 5px #a7a7a7}
+
+footer a{color: #333}
+
+footer .footer-foot ul li{display: inline-block; margin: 0 30px}
+
+/*End footer */
+
+
+
+/*Start scroll to top button */
+#to-top
+{
+   z-index: 9999;
+   position: fixed;
+   height: 40px;
+   width: 40px;
+   top: 90%;
+   left:90%;
+   text-align: center;
+   border-radius: 50%;
+   background-color: #5E78EF;
+   cursor: pointer;
+   display: none
+}
+
+#to-top i
+{
+   padding: 5px 10px
+}
+
+/*End scroll to top button */
